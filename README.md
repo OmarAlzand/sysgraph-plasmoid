@@ -5,7 +5,7 @@ opens a **live history graph plus a per-sensor breakdown** when you click it. Bu
 CPU, temperature and memory, but it works with any
 [KSystemStats](https://invent.kde.org/plasma/libksysguard) sensor.
 
-![Three gauges open — CPU, temperature and memory](screenshots/popup.png)
+![The click popup — a live 60-second history graph and per-sensor breakdown (CPU)](screenshots/popup.png)
 
 ![In the panel](screenshots/panel.png)
 
