@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+  <group name="General">
+    <entry name="title" type="String">
+      <default>Sensor</default>
+    </entry>
+    <entry name="glyph" type="String">
+      <default></default>
+    </entry>
+    <entry name="mainSensor" type="String">
+      <default>cpu/all/usage</default>
+    </entry>
+    <entry name="accentColor" type="String">
+      <default>#00a062</default>
+    </entry>
+    <entry name="rangeMax" type="Double">
+      <default>100</default>
+    </entry>
+    <entry name="rangeAuto" type="Bool">
+      <default>false</default>
+    </entry>
+    <!-- Denominator for the breakdown mini-bars (0 = no bars). -->
+    <entry name="barMax" type="Double">
+      <default>0</default>
+    </entry>
+    <!-- Each entry is "sensorId|Label|bar" (bar=1 draws a mini-bar) shown in the popup breakdown -->
+    <entry name="details" type="StringList">
+      <default></default>
+    </entry>
+  </group>
+</kcfg>

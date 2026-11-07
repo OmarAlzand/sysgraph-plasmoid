@@ -1,0 +1,20 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Omar Alzand"
+            }
+        ],
+        "Category": "System Information",
+        "Description": "Panel gauge that shows a live value, with a history graph and a per-sensor breakdown on click",
+        "Icon": "office-chart-line",
+        "Id": "io.github.omaralzand.sysgraph",
+        "License": "GPL-3.0-or-later",
+        "Name": "System Graph Gauge",
+        "Version": "1.0",
+        "Website": "https://github.com/OmarAlzand/sysgraph-plasmoid",
+        "BugReportUrl": "https://github.com/OmarAlzand/sysgraph-plasmoid/issues"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
